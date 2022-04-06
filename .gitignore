@@ -1,0 +1,4 @@
+.idea/
+target/
+results.json
+firestore-query.iml
