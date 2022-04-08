@@ -171,7 +171,7 @@ async fn main() -> Result<(), BoxError> {
 
     let config = parse_config(args);
 
-    run_query(&config).await.unwrap();
+    run_query(&config).await?;
     Ok(())
 }
 
