@@ -9,7 +9,7 @@ prost-types = "0.10.0"
 serde_json = "1.0.79"
 serde = { version = "1.0.136", features = [ "derive" ] }
 tokio = { version = "1.18.5", features = [ "full" ] }
-tonic = { version = "0.7.1", features = [ "tls", "tls-roots" ] }
+tonic = { version = "0.8.3", features = [ "tls", "tls-roots" ] }
 
 [build-dependencies]
 tonic-build = "0.7.0"
