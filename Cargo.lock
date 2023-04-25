@@ -178,7 +178,7 @@ dependencies = [
 name = "firestore-query"
 version = "0.1.0"
 dependencies = [
- "prost 0.10.0",
+ "prost 0.11.9",
  "prost-types 0.11.9",
  "serde",
  "serde_json",
@@ -595,9 +595,9 @@ dependencies = [
 
 [[package]]
 name = "prost"
-version = "0.10.0"
+version = "0.10.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "1bd5316aa8f5c82add416dfbc25116b84b748a21153f512917e8143640a71bbd"
+checksum = "71adf41db68aa0daaefc69bb30bcd68ded9b9abaad5d1fbb6304c4fb390e083e"
 dependencies = [
  "bytes",
  "prost-derive 0.10.0",
@@ -628,7 +628,7 @@ dependencies = [
  "log",
  "multimap",
  "petgraph",
- "prost 0.10.0",
+ "prost 0.10.4",
  "prost-types 0.10.1",
  "regex",
  "tempfile",
@@ -668,7 +668,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "2d0a014229361011dc8e69c8a1ec6c2e8d0f2af7c91e3ea3f5b2170298461e68"
 dependencies = [
  "bytes",
- "prost 0.10.0",
+ "prost 0.10.4",
 ]
 
 [[package]]
